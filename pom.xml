@@ -5,39 +5,33 @@
     <groupId>com.yangcs</groupId>
     <artifactId>project</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>project</name>
-    <description>project</description>
+    <packaging>pom</packaging>
+
+    <modules>
+        <module>xuecheng-plus-base</module>
+        <module>xuecheng-plus-generator</module>
+        <module>xuecheng-plus-content-api</module>
+        <module>xuecheng-plus-content-model</module>
+        <module>xuecheng-plus-content-service</module>
+    </modules>
 
     <properties>
         <java.version>1.8</java.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <spring-boot.version>2.6.13</spring-boot.version>
+        <spring-cloud.version>Hoxton.SR9</spring-cloud.version>
+        <mysql-connector-java.version>8.0.28</mysql-connector-java.version>
+        <mybatis-boot-starter.version>2.3.1</mybatis-boot-starter.version>
+        <javax.servlet-api.version>4.0.1</javax.servlet-api.version>
+        <org.projectlombok.version>1.18.8</org.projectlombok.version>
+
     </properties>
 
-    <dependencies>
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-data-redis</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-web</artifactId>
-        </dependency>
-
-        <dependency>
-            <groupId>com.mysql</groupId>
-            <artifactId>mysql-connector-j</artifactId>
-            <scope>runtime</scope>
-        </dependency>
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-test</artifactId>
-            <scope>test</scope>
-        </dependency>
-    </dependencies>
     <dependencyManagement>
         <dependencies>
+
+            <!--spring-boot-->
             <dependency>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-dependencies</artifactId>
@@ -45,6 +39,47 @@
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
+            <!--spring-cloud-->
+            <dependency>
+                <groupId>org.springframework.cloud</groupId>
+                <artifactId>spring-cloud-dependencies</artifactId>
+                <version>${spring-cloud.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+            <!--servlet-->
+            <dependency>
+                <groupId>javax.servlet</groupId>
+                <artifactId>javax.servlet-api</artifactId>
+                <version>${javax.servlet-api.version}</version>
+                <scope>provided</scope>
+            </dependency>
+            <!--mysql-->
+            <dependency>
+                <groupId>mysql</groupId>
+                <artifactId>mysql-connector-java</artifactId>
+                <version>${mysql-connector-java.version}</version>
+            </dependency>
+            <!--mybatis-->
+            <dependency>
+                <groupId>org.mybatis.spring.boot</groupId>
+                <artifactId>mybatis-spring-boot-starter</artifactId>
+                <version>${mybatis-boot-starter.version}</version>
+            </dependency>
+            <!--spring-boot-test-->
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-starter-test</artifactId>
+                <version>${spring-boot.version}</version>
+                <scope>test</scope>
+            </dependency>
+            <!--lombok-->
+            <dependency>
+                <groupId>org.projectlombok</groupId>
+                <artifactId>lombok</artifactId>
+                <version>${org.projectlombok.version}</version>
+            </dependency>
+
         </dependencies>
     </dependencyManagement>
 
