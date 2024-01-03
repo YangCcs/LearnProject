@@ -5,8 +5,15 @@
     <groupId>com.yangcs</groupId>
     <artifactId>project</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>project</name>
-    <description>project</description>
+    <packaging>pom</packaging>
+
+    <modules>
+        <module>xuecheng-plus-base</module>
+        <module>xuecheng-plus-generator</module>
+        <module>xuecheng-plus-content-api</module>
+        <module>xuecheng-plus-content-model</module>
+        <module>xuecheng-plus-content-service</module>
+    </modules>
 
     <properties>
         <java.version>1.8</java.version>
