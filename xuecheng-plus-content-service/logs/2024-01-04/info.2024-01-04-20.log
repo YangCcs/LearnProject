@@ -1,0 +1,24 @@
+2024-01-04 20:56:25,948 INFO [background-preinit][Version.java:21] - HV000001: Hibernate Validator 6.1.6.Final
+2024-01-04 20:56:25,948 INFO [background-preinit][Version.java:21] - HV000001: Hibernate Validator 6.1.6.Final
+2024-01-04 20:56:26,382 INFO [main][SpringApplication.java:651] - No active profile set, falling back to default profiles: default
+2024-01-04 20:56:26,382 INFO [main][SpringApplication.java:651] - No active profile set, falling back to default profiles: default
+2024-01-04 20:56:26,758 INFO [main][GenericScope.java:295] - BeanFactory id=cee41178-808b-32cf-bd29-2d46e89eafb4
+2024-01-04 20:56:26,758 INFO [main][GenericScope.java:295] - BeanFactory id=cee41178-808b-32cf-bd29-2d46e89eafb4
+2024-01-04 20:56:28,008 INFO [main][StartupInfoLogger.java:61] - Started CourseBaseMapperTests in 2.398 seconds (JVM running for 3.539)
+2024-01-04 20:56:28,008 INFO [main][StartupInfoLogger.java:61] - Started CourseBaseMapperTests in 2.398 seconds (JVM running for 3.539)
+2024-01-04 20:56:28,244 INFO [main][HikariDataSource.java:110] - HikariPool-1 - Starting...
+2024-01-04 20:56:28,244 INFO [main][HikariDataSource.java:110] - HikariPool-1 - Starting...
+2024-01-04 20:56:28,391 INFO [main][HikariDataSource.java:123] - HikariPool-1 - Start completed.
+2024-01-04 20:56:28,391 INFO [main][HikariDataSource.java:123] - HikariPool-1 - Start completed.
+2024-01-04 20:56:28,455 INFO [SpringContextShutdownHook][HikariDataSource.java:350] - HikariPool-1 - Shutdown initiated...
+2024-01-04 20:56:28,455 INFO [SpringContextShutdownHook][HikariDataSource.java:350] - HikariPool-1 - Shutdown initiated...
+2024-01-04 20:56:28,464 INFO [SpringContextShutdownHook][HikariDataSource.java:352] - HikariPool-1 - Shutdown completed.
+2024-01-04 20:56:28,464 INFO [SpringContextShutdownHook][HikariDataSource.java:352] - HikariPool-1 - Shutdown completed.
+2024-01-04 20:59:55,435 INFO [background-preinit][Version.java:21] - HV000001: Hibernate Validator 6.1.6.Final
+2024-01-04 20:59:55,435 INFO [background-preinit][Version.java:21] - HV000001: Hibernate Validator 6.1.6.Final
+2024-01-04 20:59:55,871 INFO [main][SpringApplication.java:651] - No active profile set, falling back to default profiles: default
+2024-01-04 20:59:55,871 INFO [main][SpringApplication.java:651] - No active profile set, falling back to default profiles: default
+2024-01-04 20:59:56,257 INFO [main][GenericScope.java:295] - BeanFactory id=cee41178-808b-32cf-bd29-2d46e89eafb4
+2024-01-04 20:59:56,257 INFO [main][GenericScope.java:295] - BeanFactory id=cee41178-808b-32cf-bd29-2d46e89eafb4
+2024-01-04 20:59:57,535 INFO [main][StartupInfoLogger.java:61] - Started CourseBaseMapperTests in 2.465 seconds (JVM running for 3.633)
+2024-01-04 20:59:57,535 INFO [main][StartupInfoLogger.java:61] - Started CourseBaseMapperTests in 2.465 seconds (JVM running for 3.633)
