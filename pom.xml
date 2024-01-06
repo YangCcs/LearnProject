@@ -13,6 +13,7 @@
         <module>xuecheng-plus-content-api</module>
         <module>xuecheng-plus-content-model</module>
         <module>xuecheng-plus-content-service</module>
+        <module>xuecheng-plus-system</module>
     </modules>
 
     <properties>
@@ -22,7 +23,7 @@
         <spring-boot.version>2.3.7.RELEASE</spring-boot.version>
         <spring-cloud.version>Hoxton.SR9</spring-cloud.version>
         <spring-cloud-alibaba.version>2.2.6.RELEASE</spring-cloud-alibaba.version>
-        <mysql-connector-java.version>8.0.28</mysql-connector-java.version>
+        <mysql-connector-java.version>8.0.30</mysql-connector-java.version>
         <mybatis-boot-starter.version>2.3.1</mybatis-boot-starter.version>
         <mybatis-plus-boot-starter.version>3.4.1</mybatis-plus-boot-starter.version>
         <org.projectlombok.version>1.18.8</org.projectlombok.version>
@@ -32,6 +33,10 @@
         <commons-lang.version>2.6</commons-lang.version>
         <commons-lang3.version>3.10</commons-lang3.version>
         <swagger-annotations.version>1.5.20</swagger-annotations.version>
+        <swagger-spring-boot-starter.version>1.9.0.RELEASE</swagger-spring-boot-starter.version>
+        <minio.version>8.4.3</minio.version>
+        <xxl-job-core.version>2.3.1</xxl-job-core.version>
+        <okhttp.version>4.8.1</okhttp.version>
     </properties>
 
     <dependencyManagement>

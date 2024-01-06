@@ -27,6 +27,7 @@ public class CourseBaseMapperTests {
     public void testCourseBaseMapper() {
         CourseBase courseBase = courseBaseMapper.selectById(18L);
         Assertions.assertNotNull(courseBase); // 确认在数据库中查到了数据，可debug
+        System.out.println(courseBase);
 
         // 详细进行分页查询的单元测试
         // 拼装查询条件
@@ -37,11 +38,11 @@ public class CourseBaseMapperTests {
         // 根据名称模糊查询,在sql中拼接course_base.name like '%值%'
         queryWrapper.like(StringUtils.isNotEmpty(courseParamsDto.getCourseName()), CourseBase::getName, courseParamsDto.getCourseName());
         // 根据课程的审核状态查询 course_base.audit_status = ?
-        queryWrapper.eq(StringUtils.isNotEmpty(courseParamsDto.getCourseName()), CourseBase::getAuditStatus, courseParamsDto.getAuditStatus());
+        queryWrapper.eq(StringUtils.isNotEmpty(courseParamsDto.getAuditStatus()), CourseBase::getAuditStatus, courseParamsDto.getAuditStatus());
         // 分页参数对象
         PageParams pageParams = new PageParams();
         pageParams.setPageNo(1L);
-        pageParams.setPageSize(2L);
+        pageParams.setPageSize(6L);
         // 创建page分页参数对象，参数：当前页码，每页记录数
         Page<CourseBase> page = new Page<>(pageParams.getPageNo(), pageParams.getPageSize());
         // 开始进行分页查询

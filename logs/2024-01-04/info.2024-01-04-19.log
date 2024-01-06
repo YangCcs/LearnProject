@@ -1,0 +1,8 @@
+2024-01-04 19:32:22,420 INFO [background-preinit][Version.java:21] - HV000001: Hibernate Validator 6.1.6.Final
+2024-01-04 19:32:22,420 INFO [background-preinit][Version.java:21] - HV000001: Hibernate Validator 6.1.6.Final
+2024-01-04 19:32:22,852 INFO [main][SpringApplication.java:651] - No active profile set, falling back to default profiles: default
+2024-01-04 19:32:22,852 INFO [main][SpringApplication.java:651] - No active profile set, falling back to default profiles: default
+2024-01-04 19:32:23,269 INFO [main][GenericScope.java:295] - BeanFactory id=24ed5960-1825-3e16-ad6d-e3b5ff931f8c
+2024-01-04 19:32:23,269 INFO [main][GenericScope.java:295] - BeanFactory id=24ed5960-1825-3e16-ad6d-e3b5ff931f8c
+2024-01-04 19:32:24,275 INFO [main][StartupInfoLogger.java:61] - Started ContentApplication in 2.384 seconds (JVM running for 3.448)
+2024-01-04 19:32:24,275 INFO [main][StartupInfoLogger.java:61] - Started ContentApplication in 2.384 seconds (JVM running for 3.448)
