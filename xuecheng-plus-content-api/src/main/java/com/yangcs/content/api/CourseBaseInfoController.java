@@ -12,6 +12,9 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
+/*
+* 课程基础信息相关接口
+* */
 @Api(value = "课程信息管理接口", tags = "课程信息管理接口")
 @RestController // 相当于Controller和ResponseBody的注解结合
 public class CourseBaseInfoController {

@@ -1,0 +1,52 @@
+2024-01-07 20:08:39,764 INFO [background-preinit][Version.java:21] - HV000001: Hibernate Validator 6.1.6.Final
+2024-01-07 20:08:39,764 INFO [background-preinit][Version.java:21] - HV000001: Hibernate Validator 6.1.6.Final
+2024-01-07 20:08:40,222 INFO [main][SpringApplication.java:651] - No active profile set, falling back to default profiles: default
+2024-01-07 20:08:40,222 INFO [main][SpringApplication.java:651] - No active profile set, falling back to default profiles: default
+2024-01-07 20:08:40,622 INFO [main][GenericScope.java:295] - BeanFactory id=a5c222b1-43d5-3d68-95f3-4714bebc7d70
+2024-01-07 20:08:40,622 INFO [main][GenericScope.java:295] - BeanFactory id=a5c222b1-43d5-3d68-95f3-4714bebc7d70
+2024-01-07 20:08:41,960 INFO [main][StartupInfoLogger.java:61] - Started CourseCategoryMapperTest in 2.58 seconds (JVM running for 3.768)
+2024-01-07 20:08:41,960 INFO [main][StartupInfoLogger.java:61] - Started CourseCategoryMapperTest in 2.58 seconds (JVM running for 3.768)
+2024-01-07 20:08:42,162 INFO [main][HikariDataSource.java:110] - HikariPool-1 - Starting...
+2024-01-07 20:08:42,162 INFO [main][HikariDataSource.java:110] - HikariPool-1 - Starting...
+2024-01-07 20:08:42,338 INFO [main][HikariDataSource.java:123] - HikariPool-1 - Start completed.
+2024-01-07 20:08:42,338 INFO [main][HikariDataSource.java:123] - HikariPool-1 - Start completed.
+2024-01-07 20:09:41,040 INFO [SpringContextShutdownHook][HikariDataSource.java:350] - HikariPool-1 - Shutdown initiated...
+2024-01-07 20:09:41,040 INFO [SpringContextShutdownHook][HikariDataSource.java:350] - HikariPool-1 - Shutdown initiated...
+2024-01-07 20:09:41,053 INFO [SpringContextShutdownHook][HikariDataSource.java:352] - HikariPool-1 - Shutdown completed.
+2024-01-07 20:09:41,053 INFO [SpringContextShutdownHook][HikariDataSource.java:352] - HikariPool-1 - Shutdown completed.
+2024-01-07 20:10:54,056 INFO [background-preinit][Version.java:21] - HV000001: Hibernate Validator 6.1.6.Final
+2024-01-07 20:10:54,056 INFO [background-preinit][Version.java:21] - HV000001: Hibernate Validator 6.1.6.Final
+2024-01-07 20:10:54,485 INFO [main][SpringApplication.java:651] - No active profile set, falling back to default profiles: default
+2024-01-07 20:10:54,485 INFO [main][SpringApplication.java:651] - No active profile set, falling back to default profiles: default
+2024-01-07 20:10:54,889 INFO [main][GenericScope.java:295] - BeanFactory id=a5c222b1-43d5-3d68-95f3-4714bebc7d70
+2024-01-07 20:10:54,889 INFO [main][GenericScope.java:295] - BeanFactory id=a5c222b1-43d5-3d68-95f3-4714bebc7d70
+2024-01-07 20:10:56,214 INFO [main][StartupInfoLogger.java:61] - Started CourseCategoryMapperTest in 2.54 seconds (JVM running for 3.744)
+2024-01-07 20:10:56,214 INFO [main][StartupInfoLogger.java:61] - Started CourseCategoryMapperTest in 2.54 seconds (JVM running for 3.744)
+2024-01-07 20:10:56,413 INFO [main][HikariDataSource.java:110] - HikariPool-1 - Starting...
+2024-01-07 20:10:56,413 INFO [main][HikariDataSource.java:110] - HikariPool-1 - Starting...
+2024-01-07 20:10:56,584 INFO [main][HikariDataSource.java:123] - HikariPool-1 - Start completed.
+2024-01-07 20:10:56,584 INFO [main][HikariDataSource.java:123] - HikariPool-1 - Start completed.
+2024-01-07 20:11:49,636 WARN [HikariPool-1 housekeeper][HikariPool.java:787] - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=49s179ms970µs100ns).
+2024-01-07 20:11:49,636 WARN [HikariPool-1 housekeeper][HikariPool.java:787] - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=49s179ms970µs100ns).
+2024-01-07 20:12:10,699 INFO [SpringContextShutdownHook][HikariDataSource.java:350] - HikariPool-1 - Shutdown initiated...
+2024-01-07 20:12:10,699 INFO [SpringContextShutdownHook][HikariDataSource.java:350] - HikariPool-1 - Shutdown initiated...
+2024-01-07 20:12:10,716 INFO [SpringContextShutdownHook][HikariDataSource.java:352] - HikariPool-1 - Shutdown completed.
+2024-01-07 20:12:10,716 INFO [SpringContextShutdownHook][HikariDataSource.java:352] - HikariPool-1 - Shutdown completed.
+2024-01-07 20:14:48,486 INFO [background-preinit][Version.java:21] - HV000001: Hibernate Validator 6.1.6.Final
+2024-01-07 20:14:48,486 INFO [background-preinit][Version.java:21] - HV000001: Hibernate Validator 6.1.6.Final
+2024-01-07 20:14:48,927 INFO [main][SpringApplication.java:651] - No active profile set, falling back to default profiles: default
+2024-01-07 20:14:48,927 INFO [main][SpringApplication.java:651] - No active profile set, falling back to default profiles: default
+2024-01-07 20:14:49,333 INFO [main][GenericScope.java:295] - BeanFactory id=a5c222b1-43d5-3d68-95f3-4714bebc7d70
+2024-01-07 20:14:49,333 INFO [main][GenericScope.java:295] - BeanFactory id=a5c222b1-43d5-3d68-95f3-4714bebc7d70
+2024-01-07 20:14:50,636 INFO [main][StartupInfoLogger.java:61] - Started CourseCategoryMapperTest in 2.532 seconds (JVM running for 3.729)
+2024-01-07 20:14:50,636 INFO [main][StartupInfoLogger.java:61] - Started CourseCategoryMapperTest in 2.532 seconds (JVM running for 3.729)
+2024-01-07 20:14:50,830 INFO [main][HikariDataSource.java:110] - HikariPool-1 - Starting...
+2024-01-07 20:14:50,830 INFO [main][HikariDataSource.java:110] - HikariPool-1 - Starting...
+2024-01-07 20:14:51,004 INFO [main][HikariDataSource.java:123] - HikariPool-1 - Start completed.
+2024-01-07 20:14:51,004 INFO [main][HikariDataSource.java:123] - HikariPool-1 - Start completed.
+2024-01-07 20:33:36,048 WARN [HikariPool-1 housekeeper][HikariPool.java:787] - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=19m15s43ms928µs200ns).
+2024-01-07 20:33:36,048 WARN [HikariPool-1 housekeeper][HikariPool.java:787] - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=19m15s43ms928µs200ns).
+2024-01-07 20:33:51,426 INFO [SpringContextShutdownHook][HikariDataSource.java:350] - HikariPool-1 - Shutdown initiated...
+2024-01-07 20:33:51,426 INFO [SpringContextShutdownHook][HikariDataSource.java:350] - HikariPool-1 - Shutdown initiated...
+2024-01-07 20:33:51,438 INFO [SpringContextShutdownHook][HikariDataSource.java:352] - HikariPool-1 - Shutdown completed.
+2024-01-07 20:33:51,438 INFO [SpringContextShutdownHook][HikariDataSource.java:352] - HikariPool-1 - Shutdown completed.

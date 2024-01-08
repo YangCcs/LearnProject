@@ -1,0 +1,24 @@
+2024-01-07 16:00:06,735 INFO [background-preinit][Version.java:21] - HV000001: Hibernate Validator 6.1.6.Final
+2024-01-07 16:00:06,735 INFO [background-preinit][Version.java:21] - HV000001: Hibernate Validator 6.1.6.Final
+2024-01-07 16:00:07,203 INFO [main][SpringApplication.java:651] - No active profile set, falling back to default profiles: default
+2024-01-07 16:00:07,203 INFO [main][SpringApplication.java:651] - No active profile set, falling back to default profiles: default
+2024-01-07 16:00:07,664 INFO [main][GenericScope.java:295] - BeanFactory id=a5c222b1-43d5-3d68-95f3-4714bebc7d70
+2024-01-07 16:00:07,664 INFO [main][GenericScope.java:295] - BeanFactory id=a5c222b1-43d5-3d68-95f3-4714bebc7d70
+2024-01-07 16:00:09,128 INFO [main][StartupInfoLogger.java:61] - Started CourseCategoryMapperTest in 2.803 seconds (JVM running for 4.364)
+2024-01-07 16:00:09,128 INFO [main][StartupInfoLogger.java:61] - Started CourseCategoryMapperTest in 2.803 seconds (JVM running for 4.364)
+2024-01-07 16:05:34,257 INFO [background-preinit][Version.java:21] - HV000001: Hibernate Validator 6.1.6.Final
+2024-01-07 16:05:34,257 INFO [background-preinit][Version.java:21] - HV000001: Hibernate Validator 6.1.6.Final
+2024-01-07 16:05:34,691 INFO [main][SpringApplication.java:651] - No active profile set, falling back to default profiles: default
+2024-01-07 16:05:34,691 INFO [main][SpringApplication.java:651] - No active profile set, falling back to default profiles: default
+2024-01-07 16:05:35,091 INFO [main][GenericScope.java:295] - BeanFactory id=a5c222b1-43d5-3d68-95f3-4714bebc7d70
+2024-01-07 16:05:35,091 INFO [main][GenericScope.java:295] - BeanFactory id=a5c222b1-43d5-3d68-95f3-4714bebc7d70
+2024-01-07 16:05:36,405 INFO [main][StartupInfoLogger.java:61] - Started CourseCategoryMapperTest in 2.509 seconds (JVM running for 3.702)
+2024-01-07 16:05:36,405 INFO [main][StartupInfoLogger.java:61] - Started CourseCategoryMapperTest in 2.509 seconds (JVM running for 3.702)
+2024-01-07 16:11:55,559 INFO [background-preinit][Version.java:21] - HV000001: Hibernate Validator 6.1.6.Final
+2024-01-07 16:11:55,559 INFO [background-preinit][Version.java:21] - HV000001: Hibernate Validator 6.1.6.Final
+2024-01-07 16:11:56,020 INFO [main][SpringApplication.java:651] - No active profile set, falling back to default profiles: default
+2024-01-07 16:11:56,020 INFO [main][SpringApplication.java:651] - No active profile set, falling back to default profiles: default
+2024-01-07 16:11:56,414 INFO [main][GenericScope.java:295] - BeanFactory id=a5c222b1-43d5-3d68-95f3-4714bebc7d70
+2024-01-07 16:11:56,414 INFO [main][GenericScope.java:295] - BeanFactory id=a5c222b1-43d5-3d68-95f3-4714bebc7d70
+2024-01-07 16:11:57,791 INFO [main][StartupInfoLogger.java:61] - Started CourseCategoryMapperTest in 2.628 seconds (JVM running for 3.932)
+2024-01-07 16:11:57,791 INFO [main][StartupInfoLogger.java:61] - Started CourseCategoryMapperTest in 2.628 seconds (JVM running for 3.932)
