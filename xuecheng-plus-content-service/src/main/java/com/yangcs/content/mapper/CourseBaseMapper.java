@@ -2,6 +2,9 @@ package com.yangcs.content.mapper;
 
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 import com.yangcs.content.model.po.CourseBase;
+import org.apache.ibatis.annotations.Select;
+
+import java.io.Serializable;
 
 /**
  * <p>
@@ -13,4 +16,6 @@ import com.yangcs.content.model.po.CourseBase;
  */
 public interface CourseBaseMapper extends BaseMapper<CourseBase> {
 
+    @Select("select * from course_base where id=#{id}")
+    CourseBase selectById(Long id);
 }
