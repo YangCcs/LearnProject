@@ -49,7 +49,10 @@ public class CourseBaseInfoController {
 
     @ApiOperation("修改课程基础信息")
     @PutMapping("/course")
-    public CourseBaseInfoDto modifyCourseBase(@RequestBody @Validated EditCourseDto editCourseDto) {
-        return null;
+    public CourseBaseInfoDto modifyCourseBase(@RequestBody @Validated(ValidationGroups.Update.class) EditCourseDto editCourseDto) {
+        // 获取用户 所属机构的id
+        Long companyId = 1232141425L;
+        CourseBaseInfoDto courseBaseInfoDto = courseBaseInfoService.updateCourseBase(companyId, editCourseDto);
+        return courseBaseInfoDto;
     }
 }

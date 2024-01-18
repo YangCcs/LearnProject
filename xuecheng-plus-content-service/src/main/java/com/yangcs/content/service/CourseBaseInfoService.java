@@ -4,6 +4,7 @@ import com.yangcs.content.model.PageParams;
 import com.yangcs.content.model.PageResult;
 import com.yangcs.content.model.dto.AddCourseDto;
 import com.yangcs.content.model.dto.CourseBaseInfoDto;
+import com.yangcs.content.model.dto.EditCourseDto;
 import com.yangcs.content.model.dto.QueryCourseParamsDto;
 import com.yangcs.content.model.po.CourseBase;
 
@@ -19,4 +20,6 @@ public interface CourseBaseInfoService {
     CourseBaseInfoDto createCourseBase(Long companyId, AddCourseDto addCourseDto);
 
     CourseBaseInfoDto getCourseBaseInfo(Long courseId);
+
+    CourseBaseInfoDto updateCourseBase(Long companyId, EditCourseDto editCourseDto);
 }

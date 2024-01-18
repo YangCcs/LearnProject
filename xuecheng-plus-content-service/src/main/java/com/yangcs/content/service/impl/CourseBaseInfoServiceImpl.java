@@ -10,6 +10,7 @@ import com.yangcs.content.model.PageParams;
 import com.yangcs.content.model.PageResult;
 import com.yangcs.content.model.dto.AddCourseDto;
 import com.yangcs.content.model.dto.CourseBaseInfoDto;
+import com.yangcs.content.model.dto.EditCourseDto;
 import com.yangcs.content.model.dto.QueryCourseParamsDto;
 import com.yangcs.content.model.po.CourseBase;
 import com.yangcs.content.model.po.CourseMarket;
@@ -54,6 +55,39 @@ public class CourseBaseInfoServiceImpl implements CourseBaseInfoService {
         System.out.println(courseBasePageResult);
 
         return courseBasePageResult;
+    }
+
+    @Override
+    public CourseBaseInfoDto updateCourseBase(Long companyId, EditCourseDto editCourseDto) {
+        // 拿到课程id
+        Long courseId = editCourseDto.getId();
+        // 查询课程信息，更新基本信息
+        CourseBase courseBase = courseBaseMapper.selectById(courseId);
+        if (courseBase == null) {
+            XueChengPlusException.cast("课程不存在");
+        }
+
+        // 数据和发行校验，根据具体的业务逻辑去校验
+        // 本机构只能修改本机构的课程
+        if (!companyId.equals(courseBase.getCompanyId())) {
+            XueChengPlusException.cast("本机构只能修改本机构的课程");
+        }
+        // 封装数据，这里把我们【编辑过】的数据先复制到对象里去，这里复制的是EditCourseDto里定义的数据，还有一部分没有定义的数据
+        BeanUtils.copyProperties(editCourseDto, courseBase);
+        // 修改时间这一条数据
+        courseBase.setChangeDate(LocalDateTime.now());
+        // 更新数据库
+        int i = courseBaseMapper.updateById(courseBase);
+        if (i <= 0) {
+            XueChengPlusException.cast("修改课程失败");
+        }
+
+        // 更新营销信息
+        // todo:...
+
+        // 查询课程信息
+        CourseBaseInfoDto courseBaseInfoDto = getCourseBaseInfo(courseId);
+        return courseBaseInfoDto;
     }
 
     @Transactional // 数据库写入操作都要进行事务控制
