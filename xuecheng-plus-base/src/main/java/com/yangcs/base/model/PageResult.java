@@ -1,4 +1,4 @@
-package com.yangcs.content.model;
+package com.yangcs.base.model;
 
 import lombok.Data;
 import lombok.ToString;

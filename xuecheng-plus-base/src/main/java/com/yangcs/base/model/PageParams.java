@@ -1,4 +1,4 @@
-package com.yangcs.content.model;
+package com.yangcs.base.model;
 
 import io.swagger.annotations.ApiModelProperty;
 import lombok.Data;

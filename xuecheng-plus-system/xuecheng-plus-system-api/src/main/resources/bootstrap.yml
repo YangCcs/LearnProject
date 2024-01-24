@@ -8,7 +8,7 @@ spring:
     name: system-api
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/project_system?serverTimezone=UTC&userUnicode=true&useSSL=false&
+    url: jdbc:mysql://172.18.21.57:3306/project_system?serverTimezone=UTC&userUnicode=true&useSSL=false&
     username: root
     password: 200412
 # 日志文件配置路径

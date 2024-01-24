@@ -1,7 +1,7 @@
 package com.yangcs.content;
 
-import com.yangcs.content.model.PageParams;
-import com.yangcs.content.model.PageResult;
+import com.yangcs.base.model.PageParams;
+import com.yangcs.base.model.PageResult;
 import com.yangcs.content.model.dto.QueryCourseParamsDto;
 import com.yangcs.content.model.po.CourseBase;
 import com.yangcs.content.service.CourseBaseInfoService;

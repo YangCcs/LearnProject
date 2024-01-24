@@ -1,8 +1,8 @@
 package com.yangcs.content.api;
 
 import com.yangcs.base.exception.ValidationGroups;
-import com.yangcs.content.model.PageParams;
-import com.yangcs.content.model.PageResult;
+import com.yangcs.base.model.PageParams;
+import com.yangcs.base.model.PageResult;
 import com.yangcs.content.model.dto.AddCourseDto;
 import com.yangcs.content.model.dto.CourseBaseInfoDto;
 import com.yangcs.content.model.dto.EditCourseDto;
