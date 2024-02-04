@@ -54,6 +54,12 @@
             <artifactId>spring-boot-starter-log4j2</artifactId>
         </dependency>
 
+        <!--nacos-discovery-->
+        <dependency>
+            <groupId>com.alibaba.cloud</groupId>
+            <artifactId>spring-cloud-starter-alibaba-nacos-discovery</artifactId>
+        </dependency>
+
 
     </dependencies>
 

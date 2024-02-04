@@ -3,6 +3,8 @@ package com.yangcs.media.service;
 import com.yangcs.base.model.PageParams;
 import com.yangcs.base.model.PageResult;
 import com.yangcs.media.model.dto.QueryMediaParamsDto;
+import com.yangcs.media.model.dto.UploadFileParamsDto;
+import com.yangcs.media.model.dto.UploadFileResultDto;
 import com.yangcs.media.model.po.MediaFiles;
 
 /**
@@ -21,7 +23,11 @@ public interface MediaFileService {
   * @author Mr.M
   * @date 2022/9/10 8:57
  */
- public PageResult<MediaFiles> queryMediaFiels(Long companyId,PageParams pageParams, QueryMediaParamsDto queryMediaParamsDto);
+    public PageResult<MediaFiles> queryMediaFiels(Long companyId,PageParams pageParams, QueryMediaParamsDto queryMediaParamsDto);
+
+
+    // 本地的文件路径要传进来
+    UploadFileResultDto uploadFile(Long companyId, UploadFileParamsDto uploadFileParamsDto, String localFilePath);
 
 
 }
