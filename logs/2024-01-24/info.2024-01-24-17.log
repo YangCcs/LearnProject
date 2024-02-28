@@ -1,0 +1,22 @@
+2024-01-24 19:02:55,679 WARN [Thread-5][HttpClientBeanHolder.java:108] - [HttpClientBeanHolder] Start destroying common HttpClient
+2024-01-24 19:02:55,679 WARN [Thread-5][HttpClientBeanHolder.java:108] - [HttpClientBeanHolder] Start destroying common HttpClient
+2024-01-24 19:02:55,679 WARN [Thread-31][NotifyCenter.java:145] - [NotifyCenter] Start destroying Publisher
+2024-01-24 19:02:55,679 INFO [Thread-79][PollingServerListUpdater.java:53] - Shutting down the Executor Pool for PollingServerListUpdater
+2024-01-24 19:02:55,679 WARN [Thread-31][NotifyCenter.java:145] - [NotifyCenter] Start destroying Publisher
+2024-01-24 19:02:55,679 INFO [Thread-79][PollingServerListUpdater.java:53] - Shutting down the Executor Pool for PollingServerListUpdater
+2024-01-24 19:02:55,689 WARN [Thread-31][NotifyCenter.java:162] - [NotifyCenter] Destruction of the end
+2024-01-24 19:02:55,689 WARN [Thread-31][NotifyCenter.java:162] - [NotifyCenter] Destruction of the end
+2024-01-24 19:02:55,690 WARN [Thread-5][HttpClientBeanHolder.java:114] - [HttpClientBeanHolder] Destruction of the end
+2024-01-24 19:02:55,690 WARN [Thread-5][HttpClientBeanHolder.java:114] - [HttpClientBeanHolder] Destruction of the end
+2024-01-24 19:02:55,697 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'Nacos-Watch-Task-Scheduler'
+2024-01-24 19:02:55,697 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'Nacos-Watch-Task-Scheduler'
+2024-01-24 19:02:55,700 INFO [SpringContextShutdownHook][NacosServiceRegistry.java:94] - De-registering from Nacos Server now...
+2024-01-24 19:02:55,700 INFO [SpringContextShutdownHook][NacosServiceRegistry.java:94] - De-registering from Nacos Server now...
+2024-01-24 19:02:55,702 INFO [SpringContextShutdownHook][BeatReactor.java:101] - [BEAT] removing beat: xuecheng-plus-project@@gateway:192.168.23.1:63010 from beat map.
+2024-01-24 19:02:55,702 INFO [SpringContextShutdownHook][BeatReactor.java:101] - [BEAT] removing beat: xuecheng-plus-project@@gateway:192.168.23.1:63010 from beat map.
+2024-01-24 19:02:55,702 INFO [SpringContextShutdownHook][NamingProxy.java:260] - [DEREGISTER-SERVICE] dev deregistering service xuecheng-plus-project@@gateway with instance: Instance{instanceId='null', ip='192.168.23.1', port=63010, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='DEFAULT', serviceName='null', metadata={}}
+2024-01-24 19:02:55,702 INFO [SpringContextShutdownHook][NamingProxy.java:260] - [DEREGISTER-SERVICE] dev deregistering service xuecheng-plus-project@@gateway with instance: Instance{instanceId='null', ip='192.168.23.1', port=63010, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='DEFAULT', serviceName='null', metadata={}}
+2024-01-24 19:02:55,704 INFO [SpringContextShutdownHook][NacosServiceRegistry.java:114] - De-registration finished.
+2024-01-24 19:02:55,704 INFO [SpringContextShutdownHook][NacosServiceRegistry.java:114] - De-registration finished.
+2024-01-24 19:02:55,704 INFO [SpringContextShutdownHook][BeatReactor.java:147] - com.alibaba.nacos.client.naming.beat.BeatReactor do shutdown begin
+2024-01-24 19:02:55,704 INFO [SpringContextShutdownHook][BeatReactor.java:147] - com.alibaba.nacos.client.naming.beat.BeatReactor do shutdown begin

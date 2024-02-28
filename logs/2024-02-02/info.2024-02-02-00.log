@@ -1,0 +1,96 @@
+2024-02-02 00:43:50,104 INFO [main][SpringApplication.java:655] - The following profiles are active: dev
+2024-02-02 00:43:50,104 INFO [main][SpringApplication.java:655] - The following profiles are active: dev
+2024-02-02 00:43:50,853 INFO [main][GenericScope.java:295] - BeanFactory id=3779e3ff-a919-38b5-8b63-ea738e53b7ff
+2024-02-02 00:43:50,853 INFO [main][GenericScope.java:295] - BeanFactory id=3779e3ff-a919-38b5-8b63-ea738e53b7ff
+2024-02-02 00:43:51,155 INFO [main][TomcatWebServer.java:108] - Tomcat initialized with port(s): 63050 (http)
+2024-02-02 00:43:51,155 INFO [main][TomcatWebServer.java:108] - Tomcat initialized with port(s): 63050 (http)
+2024-02-02 00:43:51,163 INFO [main][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-63050"]
+2024-02-02 00:43:51,163 INFO [main][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-63050"]
+2024-02-02 00:43:51,173 INFO [main][DirectJDKLog.java:173] - Starting service [Tomcat]
+2024-02-02 00:43:51,173 INFO [main][DirectJDKLog.java:173] - Starting service [Tomcat]
+2024-02-02 00:43:51,173 INFO [main][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2024-02-02 00:43:51,173 INFO [main][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2024-02-02 00:43:51,175 INFO [main][DirectJDKLog.java:173] - Loaded Apache Tomcat Native library [2.0.6] using APR version [1.7.4].
+2024-02-02 00:43:51,175 INFO [main][DirectJDKLog.java:173] - Loaded Apache Tomcat Native library [2.0.6] using APR version [1.7.4].
+2024-02-02 00:43:51,175 INFO [main][DirectJDKLog.java:173] - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2024-02-02 00:43:51,175 INFO [main][DirectJDKLog.java:173] - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2024-02-02 00:43:51,176 INFO [main][DirectJDKLog.java:173] - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2024-02-02 00:43:51,176 INFO [main][DirectJDKLog.java:173] - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2024-02-02 00:43:51,180 INFO [main][DirectJDKLog.java:173] - OpenSSL successfully initialized [OpenSSL 3.0.11 19 Sep 2023]
+2024-02-02 00:43:51,180 INFO [main][DirectJDKLog.java:173] - OpenSSL successfully initialized [OpenSSL 3.0.11 19 Sep 2023]
+2024-02-02 00:43:51,279 INFO [main][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+2024-02-02 00:43:51,279 INFO [main][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+2024-02-02 00:43:51,279 INFO [main][ServletWebServerApplicationContext.java:285] - Root WebApplicationContext: initialization completed in 1160 ms
+2024-02-02 00:43:51,279 INFO [main][ServletWebServerApplicationContext.java:285] - Root WebApplicationContext: initialization completed in 1160 ms
+2024-02-02 00:43:51,840 WARN [main][AbstractApplicationContext.java:559] - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'mediaFilesController': Unsatisfied dependency expressed through field 'mediaFileService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'mediaFileServiceImpl': Unsatisfied dependency expressed through field 'minioClient'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'minioClient' defined in class path resource [com/yangcs/media/config/MinioConfig.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [io.minio.MinioClient]: Factory method 'minioClient' threw exception; nested exception is java.lang.ExceptionInInitializerError
+2024-02-02 00:43:51,840 WARN [main][AbstractApplicationContext.java:559] - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'mediaFilesController': Unsatisfied dependency expressed through field 'mediaFileService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'mediaFileServiceImpl': Unsatisfied dependency expressed through field 'minioClient'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'minioClient' defined in class path resource [com/yangcs/media/config/MinioConfig.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [io.minio.MinioClient]: Factory method 'minioClient' threw exception; nested exception is java.lang.ExceptionInInitializerError
+2024-02-02 00:43:51,842 INFO [main][DirectJDKLog.java:173] - Stopping service [Tomcat]
+2024-02-02 00:43:51,842 INFO [main][DirectJDKLog.java:173] - Stopping service [Tomcat]
+2024-02-02 00:43:51,851 INFO [main][ConditionEvaluationReportLoggingListener.java:136] - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2024-02-02 00:43:51,851 INFO [main][ConditionEvaluationReportLoggingListener.java:136] - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2024-02-02 00:43:51,858 ERROR [main][LoggingFailureAnalysisReporter.java:40] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+An attempt was made to call a method that does not exist. The attempt was made from the following location:
+
+    io.minio.S3Base.<clinit>(S3Base.java:104)
+
+The following method did not exist:
+
+    okhttp3.RequestBody.create([BLokhttp3/MediaType;)Lokhttp3/RequestBody;
+
+The method's class, okhttp3.RequestBody, is available from the following locations:
+
+    jar:file:/D:/Softwares/apache-maven-3.9.5/mvn_repo/com/squareup/okhttp3/okhttp/3.14.9/okhttp-3.14.9.jar!/okhttp3/RequestBody.class
+
+The class hierarchy was loaded from the following locations:
+
+    okhttp3.RequestBody: file:/D:/Softwares/apache-maven-3.9.5/mvn_repo/com/squareup/okhttp3/okhttp/3.14.9/okhttp-3.14.9.jar
+
+
+Action:
+
+Correct the classpath of your application so that it contains a single, compatible version of okhttp3.RequestBody
+
+2024-02-02 00:43:51,858 ERROR [main][LoggingFailureAnalysisReporter.java:40] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+An attempt was made to call a method that does not exist. The attempt was made from the following location:
+
+    io.minio.S3Base.<clinit>(S3Base.java:104)
+
+The following method did not exist:
+
+    okhttp3.RequestBody.create([BLokhttp3/MediaType;)Lokhttp3/RequestBody;
+
+The method's class, okhttp3.RequestBody, is available from the following locations:
+
+    jar:file:/D:/Softwares/apache-maven-3.9.5/mvn_repo/com/squareup/okhttp3/okhttp/3.14.9/okhttp-3.14.9.jar!/okhttp3/RequestBody.class
+
+The class hierarchy was loaded from the following locations:
+
+    okhttp3.RequestBody: file:/D:/Softwares/apache-maven-3.9.5/mvn_repo/com/squareup/okhttp3/okhttp/3.14.9/okhttp-3.14.9.jar
+
+
+Action:
+
+Correct the classpath of your application so that it contains a single, compatible version of okhttp3.RequestBody
+
+2024-02-02 00:43:51,860 WARN [Thread-6][HttpClientBeanHolder.java:108] - [HttpClientBeanHolder] Start destroying common HttpClient
+2024-02-02 00:43:51,860 WARN [Thread-6][HttpClientBeanHolder.java:108] - [HttpClientBeanHolder] Start destroying common HttpClient
+2024-02-02 00:43:51,860 WARN [Thread-6][HttpClientBeanHolder.java:114] - [HttpClientBeanHolder] Destruction of the end
+2024-02-02 00:43:51,860 WARN [Thread-6][HttpClientBeanHolder.java:114] - [HttpClientBeanHolder] Destruction of the end

@@ -1,0 +1,29 @@
+2024-02-02 00:43:51,858 ERROR [main][LoggingFailureAnalysisReporter.java:40] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+An attempt was made to call a method that does not exist. The attempt was made from the following location:
+
+    io.minio.S3Base.<clinit>(S3Base.java:104)
+
+The following method did not exist:
+
+    okhttp3.RequestBody.create([BLokhttp3/MediaType;)Lokhttp3/RequestBody;
+
+The method's class, okhttp3.RequestBody, is available from the following locations:
+
+    jar:file:/D:/Softwares/apache-maven-3.9.5/mvn_repo/com/squareup/okhttp3/okhttp/3.14.9/okhttp-3.14.9.jar!/okhttp3/RequestBody.class
+
+The class hierarchy was loaded from the following locations:
+
+    okhttp3.RequestBody: file:/D:/Softwares/apache-maven-3.9.5/mvn_repo/com/squareup/okhttp3/okhttp/3.14.9/okhttp-3.14.9.jar
+
+
+Action:
+
+Correct the classpath of your application so that it contains a single, compatible version of okhttp3.RequestBody
+
