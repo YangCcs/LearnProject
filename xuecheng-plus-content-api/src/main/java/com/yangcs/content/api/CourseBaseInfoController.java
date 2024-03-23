@@ -17,6 +17,7 @@ import org.springframework.web.bind.annotation.*;
 
 /*
 * 课程基础信息相关接口
+* 内容管理、媒资管理、课程搜索、订单支付、选课管理、认证授权等
 * */
 @Api(value = "课程信息管理接口", tags = "课程信息管理接口")
 @RestController // 相当于Controller和ResponseBody的注解结合

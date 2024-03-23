@@ -1,0 +1,102 @@
+2024-01-18 18:01:27,794 WARN [HikariPool-1 housekeeper][HikariPool.java:787] - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h25m39s426ms263µs100ns).
+2024-01-18 18:01:27,794 WARN [HikariPool-1 housekeeper][HikariPool.java:787] - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h25m39s426ms263µs100ns).
+2024-01-18 18:01:27,835 INFO [SpringContextShutdownHook][HikariDataSource.java:350] - HikariPool-1 - Shutdown initiated...
+2024-01-18 18:01:27,835 INFO [SpringContextShutdownHook][HikariDataSource.java:350] - HikariPool-1 - Shutdown initiated...
+2024-01-18 18:01:27,856 INFO [SpringContextShutdownHook][HikariDataSource.java:352] - HikariPool-1 - Shutdown completed.
+2024-01-18 18:01:27,856 INFO [SpringContextShutdownHook][HikariDataSource.java:352] - HikariPool-1 - Shutdown completed.
+2024-01-18 18:02:37,500 INFO [background-preinit][Version.java:21] - HV000001: Hibernate Validator 6.1.6.Final
+2024-01-18 18:02:37,500 INFO [background-preinit][Version.java:21] - HV000001: Hibernate Validator 6.1.6.Final
+2024-01-18 18:02:37,929 INFO [main][SpringApplication.java:651] - No active profile set, falling back to default profiles: default
+2024-01-18 18:02:37,929 INFO [main][SpringApplication.java:651] - No active profile set, falling back to default profiles: default
+2024-01-18 18:02:38,338 INFO [main][GenericScope.java:295] - BeanFactory id=7127edc9-0838-3517-8ad9-6494bede6e68
+2024-01-18 18:02:38,338 INFO [main][GenericScope.java:295] - BeanFactory id=7127edc9-0838-3517-8ad9-6494bede6e68
+2024-01-18 18:02:39,229 WARN [main][AbstractMethod.java:324] - [com.yangcs.content.mapper.CourseBaseMapper.selectById] Has been loaded by XML or SqlProvider or Mybatis's Annotation, so ignoring this injection for [class com.baomidou.mybatisplus.core.injector.methods.SelectById]
+2024-01-18 18:02:39,229 WARN [main][AbstractMethod.java:324] - [com.yangcs.content.mapper.CourseBaseMapper.selectById] Has been loaded by XML or SqlProvider or Mybatis's Annotation, so ignoring this injection for [class com.baomidou.mybatisplus.core.injector.methods.SelectById]
+2024-01-18 18:02:39,730 INFO [main][StartupInfoLogger.java:61] - Started TeachplanMapperTest in 2.607 seconds (JVM running for 3.875)
+2024-01-18 18:02:39,730 INFO [main][StartupInfoLogger.java:61] - Started TeachplanMapperTest in 2.607 seconds (JVM running for 3.875)
+2024-01-18 18:02:44,754 INFO [main][HikariDataSource.java:110] - HikariPool-1 - Starting...
+2024-01-18 18:02:44,754 INFO [main][HikariDataSource.java:110] - HikariPool-1 - Starting...
+2024-01-18 18:02:45,430 INFO [main][HikariDataSource.java:123] - HikariPool-1 - Start completed.
+2024-01-18 18:02:45,430 INFO [main][HikariDataSource.java:123] - HikariPool-1 - Start completed.
+2024-01-18 18:09:51,517 WARN [HikariPool-1 housekeeper][HikariPool.java:787] - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=7m5s978ms611µs200ns).
+2024-01-18 18:09:51,517 WARN [HikariPool-1 housekeeper][HikariPool.java:787] - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=7m5s978ms611µs200ns).
+2024-01-18 18:09:51,533 INFO [SpringContextShutdownHook][HikariDataSource.java:350] - HikariPool-1 - Shutdown initiated...
+2024-01-18 18:09:51,533 INFO [SpringContextShutdownHook][HikariDataSource.java:350] - HikariPool-1 - Shutdown initiated...
+2024-01-18 18:09:51,550 INFO [SpringContextShutdownHook][HikariDataSource.java:352] - HikariPool-1 - Shutdown completed.
+2024-01-18 18:09:51,550 INFO [SpringContextShutdownHook][HikariDataSource.java:352] - HikariPool-1 - Shutdown completed.
+2024-01-18 18:10:22,149 INFO [background-preinit][Version.java:21] - HV000001: Hibernate Validator 6.1.6.Final
+2024-01-18 18:10:22,149 INFO [background-preinit][Version.java:21] - HV000001: Hibernate Validator 6.1.6.Final
+2024-01-18 18:10:22,611 INFO [main][SpringApplication.java:651] - No active profile set, falling back to default profiles: default
+2024-01-18 18:10:22,611 INFO [main][SpringApplication.java:651] - No active profile set, falling back to default profiles: default
+2024-01-18 18:10:23,023 INFO [main][GenericScope.java:295] - BeanFactory id=7127edc9-0838-3517-8ad9-6494bede6e68
+2024-01-18 18:10:23,023 INFO [main][GenericScope.java:295] - BeanFactory id=7127edc9-0838-3517-8ad9-6494bede6e68
+2024-01-18 18:10:23,862 WARN [main][AbstractMethod.java:324] - [com.yangcs.content.mapper.CourseBaseMapper.selectById] Has been loaded by XML or SqlProvider or Mybatis's Annotation, so ignoring this injection for [class com.baomidou.mybatisplus.core.injector.methods.SelectById]
+2024-01-18 18:10:23,862 WARN [main][AbstractMethod.java:324] - [com.yangcs.content.mapper.CourseBaseMapper.selectById] Has been loaded by XML or SqlProvider or Mybatis's Annotation, so ignoring this injection for [class com.baomidou.mybatisplus.core.injector.methods.SelectById]
+2024-01-18 18:10:24,348 INFO [main][StartupInfoLogger.java:61] - Started TeachplanMapperTest in 2.572 seconds (JVM running for 3.734)
+2024-01-18 18:10:24,348 INFO [main][StartupInfoLogger.java:61] - Started TeachplanMapperTest in 2.572 seconds (JVM running for 3.734)
+2024-01-18 18:10:24,527 INFO [main][HikariDataSource.java:110] - HikariPool-1 - Starting...
+2024-01-18 18:10:24,527 INFO [main][HikariDataSource.java:110] - HikariPool-1 - Starting...
+2024-01-18 18:10:24,700 INFO [main][HikariDataSource.java:123] - HikariPool-1 - Start completed.
+2024-01-18 18:10:24,700 INFO [main][HikariDataSource.java:123] - HikariPool-1 - Start completed.
+2024-01-18 18:10:24,756 INFO [SpringContextShutdownHook][HikariDataSource.java:350] - HikariPool-1 - Shutdown initiated...
+2024-01-18 18:10:24,756 INFO [SpringContextShutdownHook][HikariDataSource.java:350] - HikariPool-1 - Shutdown initiated...
+2024-01-18 18:10:24,763 INFO [SpringContextShutdownHook][HikariDataSource.java:352] - HikariPool-1 - Shutdown completed.
+2024-01-18 18:10:24,763 INFO [SpringContextShutdownHook][HikariDataSource.java:352] - HikariPool-1 - Shutdown completed.
+2024-01-18 18:10:36,028 INFO [background-preinit][Version.java:21] - HV000001: Hibernate Validator 6.1.6.Final
+2024-01-18 18:10:36,028 INFO [background-preinit][Version.java:21] - HV000001: Hibernate Validator 6.1.6.Final
+2024-01-18 18:10:36,461 INFO [main][SpringApplication.java:651] - No active profile set, falling back to default profiles: default
+2024-01-18 18:10:36,461 INFO [main][SpringApplication.java:651] - No active profile set, falling back to default profiles: default
+2024-01-18 18:10:36,857 INFO [main][GenericScope.java:295] - BeanFactory id=7127edc9-0838-3517-8ad9-6494bede6e68
+2024-01-18 18:10:36,857 INFO [main][GenericScope.java:295] - BeanFactory id=7127edc9-0838-3517-8ad9-6494bede6e68
+2024-01-18 18:10:37,672 WARN [main][AbstractMethod.java:324] - [com.yangcs.content.mapper.CourseBaseMapper.selectById] Has been loaded by XML or SqlProvider or Mybatis's Annotation, so ignoring this injection for [class com.baomidou.mybatisplus.core.injector.methods.SelectById]
+2024-01-18 18:10:37,672 WARN [main][AbstractMethod.java:324] - [com.yangcs.content.mapper.CourseBaseMapper.selectById] Has been loaded by XML or SqlProvider or Mybatis's Annotation, so ignoring this injection for [class com.baomidou.mybatisplus.core.injector.methods.SelectById]
+2024-01-18 18:10:38,198 INFO [main][StartupInfoLogger.java:61] - Started TeachplanMapperTest in 2.544 seconds (JVM running for 3.711)
+2024-01-18 18:10:38,198 INFO [main][StartupInfoLogger.java:61] - Started TeachplanMapperTest in 2.544 seconds (JVM running for 3.711)
+2024-01-18 18:10:42,830 INFO [main][HikariDataSource.java:110] - HikariPool-1 - Starting...
+2024-01-18 18:10:42,830 INFO [main][HikariDataSource.java:110] - HikariPool-1 - Starting...
+2024-01-18 18:10:43,501 INFO [main][HikariDataSource.java:123] - HikariPool-1 - Start completed.
+2024-01-18 18:10:43,501 INFO [main][HikariDataSource.java:123] - HikariPool-1 - Start completed.
+2024-01-18 18:21:25,891 WARN [HikariPool-1 housekeeper][HikariPool.java:787] - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=10m42s283ms570µs100ns).
+2024-01-18 18:21:25,891 WARN [HikariPool-1 housekeeper][HikariPool.java:787] - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=10m42s283ms570µs100ns).
+2024-01-18 18:21:25,909 INFO [SpringContextShutdownHook][HikariDataSource.java:350] - HikariPool-1 - Shutdown initiated...
+2024-01-18 18:21:25,909 INFO [SpringContextShutdownHook][HikariDataSource.java:350] - HikariPool-1 - Shutdown initiated...
+2024-01-18 18:21:25,925 INFO [SpringContextShutdownHook][HikariDataSource.java:352] - HikariPool-1 - Shutdown completed.
+2024-01-18 18:21:25,925 INFO [SpringContextShutdownHook][HikariDataSource.java:352] - HikariPool-1 - Shutdown completed.
+2024-01-18 18:40:59,182 INFO [background-preinit][Version.java:21] - HV000001: Hibernate Validator 6.1.6.Final
+2024-01-18 18:40:59,182 INFO [background-preinit][Version.java:21] - HV000001: Hibernate Validator 6.1.6.Final
+2024-01-18 18:40:59,608 INFO [main][SpringApplication.java:651] - No active profile set, falling back to default profiles: default
+2024-01-18 18:40:59,608 INFO [main][SpringApplication.java:651] - No active profile set, falling back to default profiles: default
+2024-01-18 18:41:00,022 INFO [main][GenericScope.java:295] - BeanFactory id=7127edc9-0838-3517-8ad9-6494bede6e68
+2024-01-18 18:41:00,022 INFO [main][GenericScope.java:295] - BeanFactory id=7127edc9-0838-3517-8ad9-6494bede6e68
+2024-01-18 18:41:00,883 WARN [main][AbstractMethod.java:324] - [com.yangcs.content.mapper.CourseBaseMapper.selectById] Has been loaded by XML or SqlProvider or Mybatis's Annotation, so ignoring this injection for [class com.baomidou.mybatisplus.core.injector.methods.SelectById]
+2024-01-18 18:41:00,883 WARN [main][AbstractMethod.java:324] - [com.yangcs.content.mapper.CourseBaseMapper.selectById] Has been loaded by XML or SqlProvider or Mybatis's Annotation, so ignoring this injection for [class com.baomidou.mybatisplus.core.injector.methods.SelectById]
+2024-01-18 18:41:01,365 INFO [main][StartupInfoLogger.java:61] - Started TeachplanMapperTest in 2.544 seconds (JVM running for 3.709)
+2024-01-18 18:41:01,365 INFO [main][StartupInfoLogger.java:61] - Started TeachplanMapperTest in 2.544 seconds (JVM running for 3.709)
+2024-01-18 18:41:03,095 INFO [main][HikariDataSource.java:110] - HikariPool-1 - Starting...
+2024-01-18 18:41:03,095 INFO [main][HikariDataSource.java:110] - HikariPool-1 - Starting...
+2024-01-18 18:41:03,776 INFO [main][HikariDataSource.java:123] - HikariPool-1 - Start completed.
+2024-01-18 18:41:03,776 INFO [main][HikariDataSource.java:123] - HikariPool-1 - Start completed.
+2024-01-18 18:48:04,338 WARN [HikariPool-1 housekeeper][HikariPool.java:787] - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=7m430ms230µs900ns).
+2024-01-18 18:48:04,338 WARN [HikariPool-1 housekeeper][HikariPool.java:787] - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=7m430ms230µs900ns).
+2024-01-18 18:48:04,357 INFO [SpringContextShutdownHook][HikariDataSource.java:350] - HikariPool-1 - Shutdown initiated...
+2024-01-18 18:48:04,357 INFO [SpringContextShutdownHook][HikariDataSource.java:350] - HikariPool-1 - Shutdown initiated...
+2024-01-18 18:48:04,376 INFO [SpringContextShutdownHook][HikariDataSource.java:352] - HikariPool-1 - Shutdown completed.
+2024-01-18 18:48:04,376 INFO [SpringContextShutdownHook][HikariDataSource.java:352] - HikariPool-1 - Shutdown completed.
+2024-01-18 18:48:08,965 INFO [background-preinit][Version.java:21] - HV000001: Hibernate Validator 6.1.6.Final
+2024-01-18 18:48:08,965 INFO [background-preinit][Version.java:21] - HV000001: Hibernate Validator 6.1.6.Final
+2024-01-18 18:48:09,422 INFO [main][SpringApplication.java:651] - No active profile set, falling back to default profiles: default
+2024-01-18 18:48:09,422 INFO [main][SpringApplication.java:651] - No active profile set, falling back to default profiles: default
+2024-01-18 18:48:09,830 INFO [main][GenericScope.java:295] - BeanFactory id=7127edc9-0838-3517-8ad9-6494bede6e68
+2024-01-18 18:48:09,830 INFO [main][GenericScope.java:295] - BeanFactory id=7127edc9-0838-3517-8ad9-6494bede6e68
+2024-01-18 18:48:10,715 WARN [main][AbstractMethod.java:324] - [com.yangcs.content.mapper.CourseBaseMapper.selectById] Has been loaded by XML or SqlProvider or Mybatis's Annotation, so ignoring this injection for [class com.baomidou.mybatisplus.core.injector.methods.SelectById]
+2024-01-18 18:48:10,715 WARN [main][AbstractMethod.java:324] - [com.yangcs.content.mapper.CourseBaseMapper.selectById] Has been loaded by XML or SqlProvider or Mybatis's Annotation, so ignoring this injection for [class com.baomidou.mybatisplus.core.injector.methods.SelectById]
+2024-01-18 18:48:11,202 INFO [main][StartupInfoLogger.java:61] - Started TeachplanMapperTest in 2.559 seconds (JVM running for 3.733)
+2024-01-18 18:48:11,202 INFO [main][StartupInfoLogger.java:61] - Started TeachplanMapperTest in 2.559 seconds (JVM running for 3.733)
+2024-01-18 18:48:12,301 INFO [main][HikariDataSource.java:110] - HikariPool-1 - Starting...
+2024-01-18 18:48:12,301 INFO [main][HikariDataSource.java:110] - HikariPool-1 - Starting...
+2024-01-18 18:48:12,995 INFO [main][HikariDataSource.java:123] - HikariPool-1 - Start completed.
+2024-01-18 18:48:12,995 INFO [main][HikariDataSource.java:123] - HikariPool-1 - Start completed.
+2024-01-18 18:48:37,328 INFO [SpringContextShutdownHook][HikariDataSource.java:350] - HikariPool-1 - Shutdown initiated...
+2024-01-18 18:48:37,328 INFO [SpringContextShutdownHook][HikariDataSource.java:350] - HikariPool-1 - Shutdown initiated...
+2024-01-18 18:48:37,344 INFO [SpringContextShutdownHook][HikariDataSource.java:352] - HikariPool-1 - Shutdown completed.
+2024-01-18 18:48:37,344 INFO [SpringContextShutdownHook][HikariDataSource.java:352] - HikariPool-1 - Shutdown completed.

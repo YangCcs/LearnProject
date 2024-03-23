@@ -1,0 +1,102 @@
+2024-01-17 23:30:01,160 INFO [background-preinit][Version.java:21] - HV000001: Hibernate Validator 6.1.6.Final
+2024-01-17 23:30:01,160 INFO [background-preinit][Version.java:21] - HV000001: Hibernate Validator 6.1.6.Final
+2024-01-17 23:30:01,627 INFO [main][SpringApplication.java:651] - No active profile set, falling back to default profiles: default
+2024-01-17 23:30:01,627 INFO [main][SpringApplication.java:651] - No active profile set, falling back to default profiles: default
+2024-01-17 23:30:02,057 INFO [main][GenericScope.java:295] - BeanFactory id=afd8f9e3-6628-3fb4-9d2d-2cfa6888a5bf
+2024-01-17 23:30:02,057 INFO [main][GenericScope.java:295] - BeanFactory id=afd8f9e3-6628-3fb4-9d2d-2cfa6888a5bf
+2024-01-17 23:30:03,017 WARN [main][AbstractMethod.java:324] - [com.yangcs.content.mapper.CourseBaseMapper.selectById] Has been loaded by XML or SqlProvider or Mybatis's Annotation, so ignoring this injection for [class com.baomidou.mybatisplus.core.injector.methods.SelectById]
+2024-01-17 23:30:03,017 WARN [main][AbstractMethod.java:324] - [com.yangcs.content.mapper.CourseBaseMapper.selectById] Has been loaded by XML or SqlProvider or Mybatis's Annotation, so ignoring this injection for [class com.baomidou.mybatisplus.core.injector.methods.SelectById]
+2024-01-17 23:30:03,512 INFO [main][StartupInfoLogger.java:61] - Started TeachplanMapperTest in 2.75 seconds (JVM running for 4.397)
+2024-01-17 23:30:03,512 INFO [main][StartupInfoLogger.java:61] - Started TeachplanMapperTest in 2.75 seconds (JVM running for 4.397)
+2024-01-17 23:39:53,686 INFO [background-preinit][Version.java:21] - HV000001: Hibernate Validator 6.1.6.Final
+2024-01-17 23:39:53,686 INFO [background-preinit][Version.java:21] - HV000001: Hibernate Validator 6.1.6.Final
+2024-01-17 23:39:54,119 INFO [main][SpringApplication.java:651] - No active profile set, falling back to default profiles: default
+2024-01-17 23:39:54,119 INFO [main][SpringApplication.java:651] - No active profile set, falling back to default profiles: default
+2024-01-17 23:39:54,525 INFO [main][GenericScope.java:295] - BeanFactory id=afd8f9e3-6628-3fb4-9d2d-2cfa6888a5bf
+2024-01-17 23:39:54,525 INFO [main][GenericScope.java:295] - BeanFactory id=afd8f9e3-6628-3fb4-9d2d-2cfa6888a5bf
+2024-01-17 23:39:55,356 WARN [main][AbstractMethod.java:324] - [com.yangcs.content.mapper.CourseBaseMapper.selectById] Has been loaded by XML or SqlProvider or Mybatis's Annotation, so ignoring this injection for [class com.baomidou.mybatisplus.core.injector.methods.SelectById]
+2024-01-17 23:39:55,356 WARN [main][AbstractMethod.java:324] - [com.yangcs.content.mapper.CourseBaseMapper.selectById] Has been loaded by XML or SqlProvider or Mybatis's Annotation, so ignoring this injection for [class com.baomidou.mybatisplus.core.injector.methods.SelectById]
+2024-01-17 23:39:55,859 INFO [main][StartupInfoLogger.java:61] - Started TeachplanMapperTest in 2.531 seconds (JVM running for 3.737)
+2024-01-17 23:39:55,859 INFO [main][StartupInfoLogger.java:61] - Started TeachplanMapperTest in 2.531 seconds (JVM running for 3.737)
+2024-01-17 23:40:21,998 INFO [background-preinit][Version.java:21] - HV000001: Hibernate Validator 6.1.6.Final
+2024-01-17 23:40:21,998 INFO [background-preinit][Version.java:21] - HV000001: Hibernate Validator 6.1.6.Final
+2024-01-17 23:40:22,402 INFO [main][SpringApplication.java:651] - No active profile set, falling back to default profiles: default
+2024-01-17 23:40:22,402 INFO [main][SpringApplication.java:651] - No active profile set, falling back to default profiles: default
+2024-01-17 23:40:22,791 INFO [main][GenericScope.java:295] - BeanFactory id=afd8f9e3-6628-3fb4-9d2d-2cfa6888a5bf
+2024-01-17 23:40:22,791 INFO [main][GenericScope.java:295] - BeanFactory id=afd8f9e3-6628-3fb4-9d2d-2cfa6888a5bf
+2024-01-17 23:40:23,640 WARN [main][AbstractMethod.java:324] - [com.yangcs.content.mapper.CourseBaseMapper.selectById] Has been loaded by XML or SqlProvider or Mybatis's Annotation, so ignoring this injection for [class com.baomidou.mybatisplus.core.injector.methods.SelectById]
+2024-01-17 23:40:23,640 WARN [main][AbstractMethod.java:324] - [com.yangcs.content.mapper.CourseBaseMapper.selectById] Has been loaded by XML or SqlProvider or Mybatis's Annotation, so ignoring this injection for [class com.baomidou.mybatisplus.core.injector.methods.SelectById]
+2024-01-17 23:40:24,096 INFO [main][StartupInfoLogger.java:61] - Started TeachplanMapperTest in 2.431 seconds (JVM running for 3.568)
+2024-01-17 23:40:24,096 INFO [main][StartupInfoLogger.java:61] - Started TeachplanMapperTest in 2.431 seconds (JVM running for 3.568)
+2024-01-17 23:43:45,043 INFO [background-preinit][Version.java:21] - HV000001: Hibernate Validator 6.1.6.Final
+2024-01-17 23:43:45,043 INFO [background-preinit][Version.java:21] - HV000001: Hibernate Validator 6.1.6.Final
+2024-01-17 23:43:45,452 INFO [main][SpringApplication.java:651] - No active profile set, falling back to default profiles: default
+2024-01-17 23:43:45,452 INFO [main][SpringApplication.java:651] - No active profile set, falling back to default profiles: default
+2024-01-17 23:43:45,832 INFO [main][GenericScope.java:295] - BeanFactory id=afd8f9e3-6628-3fb4-9d2d-2cfa6888a5bf
+2024-01-17 23:43:45,832 INFO [main][GenericScope.java:295] - BeanFactory id=afd8f9e3-6628-3fb4-9d2d-2cfa6888a5bf
+2024-01-17 23:43:46,690 WARN [main][AbstractMethod.java:324] - [com.yangcs.content.mapper.CourseBaseMapper.selectById] Has been loaded by XML or SqlProvider or Mybatis's Annotation, so ignoring this injection for [class com.baomidou.mybatisplus.core.injector.methods.SelectById]
+2024-01-17 23:43:46,690 WARN [main][AbstractMethod.java:324] - [com.yangcs.content.mapper.CourseBaseMapper.selectById] Has been loaded by XML or SqlProvider or Mybatis's Annotation, so ignoring this injection for [class com.baomidou.mybatisplus.core.injector.methods.SelectById]
+2024-01-17 23:43:47,133 INFO [main][StartupInfoLogger.java:61] - Started TeachplanMapperTest in 2.426 seconds (JVM running for 3.508)
+2024-01-17 23:43:47,133 INFO [main][StartupInfoLogger.java:61] - Started TeachplanMapperTest in 2.426 seconds (JVM running for 3.508)
+2024-01-17 23:48:41,632 INFO [background-preinit][Version.java:21] - HV000001: Hibernate Validator 6.1.6.Final
+2024-01-17 23:48:41,632 INFO [background-preinit][Version.java:21] - HV000001: Hibernate Validator 6.1.6.Final
+2024-01-17 23:48:42,046 INFO [main][SpringApplication.java:651] - No active profile set, falling back to default profiles: default
+2024-01-17 23:48:42,046 INFO [main][SpringApplication.java:651] - No active profile set, falling back to default profiles: default
+2024-01-17 23:48:42,435 INFO [main][GenericScope.java:295] - BeanFactory id=afd8f9e3-6628-3fb4-9d2d-2cfa6888a5bf
+2024-01-17 23:48:42,435 INFO [main][GenericScope.java:295] - BeanFactory id=afd8f9e3-6628-3fb4-9d2d-2cfa6888a5bf
+2024-01-17 23:48:43,247 WARN [main][AbstractMethod.java:324] - [com.yangcs.content.mapper.CourseBaseMapper.selectById] Has been loaded by XML or SqlProvider or Mybatis's Annotation, so ignoring this injection for [class com.baomidou.mybatisplus.core.injector.methods.SelectById]
+2024-01-17 23:48:43,247 WARN [main][AbstractMethod.java:324] - [com.yangcs.content.mapper.CourseBaseMapper.selectById] Has been loaded by XML or SqlProvider or Mybatis's Annotation, so ignoring this injection for [class com.baomidou.mybatisplus.core.injector.methods.SelectById]
+2024-01-17 23:48:43,691 INFO [main][StartupInfoLogger.java:61] - Started TeachplanMapperTest in 2.408 seconds (JVM running for 3.51)
+2024-01-17 23:48:43,691 INFO [main][StartupInfoLogger.java:61] - Started TeachplanMapperTest in 2.408 seconds (JVM running for 3.51)
+2024-01-17 23:51:55,593 INFO [background-preinit][Version.java:21] - HV000001: Hibernate Validator 6.1.6.Final
+2024-01-17 23:51:55,593 INFO [background-preinit][Version.java:21] - HV000001: Hibernate Validator 6.1.6.Final
+2024-01-17 23:51:56,023 INFO [main][SpringApplication.java:651] - No active profile set, falling back to default profiles: default
+2024-01-17 23:51:56,023 INFO [main][SpringApplication.java:651] - No active profile set, falling back to default profiles: default
+2024-01-17 23:51:56,431 INFO [main][GenericScope.java:295] - BeanFactory id=afd8f9e3-6628-3fb4-9d2d-2cfa6888a5bf
+2024-01-17 23:51:56,431 INFO [main][GenericScope.java:295] - BeanFactory id=afd8f9e3-6628-3fb4-9d2d-2cfa6888a5bf
+2024-01-17 23:51:57,279 WARN [main][AbstractMethod.java:324] - [com.yangcs.content.mapper.CourseBaseMapper.selectById] Has been loaded by XML or SqlProvider or Mybatis's Annotation, so ignoring this injection for [class com.baomidou.mybatisplus.core.injector.methods.SelectById]
+2024-01-17 23:51:57,279 WARN [main][AbstractMethod.java:324] - [com.yangcs.content.mapper.CourseBaseMapper.selectById] Has been loaded by XML or SqlProvider or Mybatis's Annotation, so ignoring this injection for [class com.baomidou.mybatisplus.core.injector.methods.SelectById]
+2024-01-17 23:51:57,775 INFO [main][StartupInfoLogger.java:61] - Started TeachplanMapperTest in 2.549 seconds (JVM running for 3.762)
+2024-01-17 23:51:57,775 INFO [main][StartupInfoLogger.java:61] - Started TeachplanMapperTest in 2.549 seconds (JVM running for 3.762)
+2024-01-17 23:52:42,215 INFO [background-preinit][Version.java:21] - HV000001: Hibernate Validator 6.1.6.Final
+2024-01-17 23:52:42,215 INFO [background-preinit][Version.java:21] - HV000001: Hibernate Validator 6.1.6.Final
+2024-01-17 23:52:42,622 INFO [main][SpringApplication.java:651] - No active profile set, falling back to default profiles: default
+2024-01-17 23:52:42,622 INFO [main][SpringApplication.java:651] - No active profile set, falling back to default profiles: default
+2024-01-17 23:52:43,007 INFO [main][GenericScope.java:295] - BeanFactory id=afd8f9e3-6628-3fb4-9d2d-2cfa6888a5bf
+2024-01-17 23:52:43,007 INFO [main][GenericScope.java:295] - BeanFactory id=afd8f9e3-6628-3fb4-9d2d-2cfa6888a5bf
+2024-01-17 23:52:43,865 WARN [main][AbstractMethod.java:324] - [com.yangcs.content.mapper.CourseBaseMapper.selectById] Has been loaded by XML or SqlProvider or Mybatis's Annotation, so ignoring this injection for [class com.baomidou.mybatisplus.core.injector.methods.SelectById]
+2024-01-17 23:52:43,865 WARN [main][AbstractMethod.java:324] - [com.yangcs.content.mapper.CourseBaseMapper.selectById] Has been loaded by XML or SqlProvider or Mybatis's Annotation, so ignoring this injection for [class com.baomidou.mybatisplus.core.injector.methods.SelectById]
+2024-01-17 23:52:44,305 INFO [main][StartupInfoLogger.java:61] - Started TeachplanMapperTest in 2.436 seconds (JVM running for 3.5)
+2024-01-17 23:52:44,305 INFO [main][StartupInfoLogger.java:61] - Started TeachplanMapperTest in 2.436 seconds (JVM running for 3.5)
+2024-01-17 23:57:32,419 INFO [background-preinit][Version.java:21] - HV000001: Hibernate Validator 6.1.6.Final
+2024-01-17 23:57:32,419 INFO [background-preinit][Version.java:21] - HV000001: Hibernate Validator 6.1.6.Final
+2024-01-17 23:57:32,811 INFO [main][SpringApplication.java:651] - No active profile set, falling back to default profiles: default
+2024-01-17 23:57:32,811 INFO [main][SpringApplication.java:651] - No active profile set, falling back to default profiles: default
+2024-01-17 23:57:33,192 INFO [main][GenericScope.java:295] - BeanFactory id=afd8f9e3-6628-3fb4-9d2d-2cfa6888a5bf
+2024-01-17 23:57:33,192 INFO [main][GenericScope.java:295] - BeanFactory id=afd8f9e3-6628-3fb4-9d2d-2cfa6888a5bf
+2024-01-17 23:57:34,118 WARN [main][AbstractMethod.java:324] - [com.yangcs.content.mapper.CourseBaseMapper.selectById] Has been loaded by XML or SqlProvider or Mybatis's Annotation, so ignoring this injection for [class com.baomidou.mybatisplus.core.injector.methods.SelectById]
+2024-01-17 23:57:34,118 WARN [main][AbstractMethod.java:324] - [com.yangcs.content.mapper.CourseBaseMapper.selectById] Has been loaded by XML or SqlProvider or Mybatis's Annotation, so ignoring this injection for [class com.baomidou.mybatisplus.core.injector.methods.SelectById]
+2024-01-17 23:57:34,563 INFO [main][StartupInfoLogger.java:61] - Started TeachplanMapperTest in 2.46 seconds (JVM running for 3.527)
+2024-01-17 23:57:34,563 INFO [main][StartupInfoLogger.java:61] - Started TeachplanMapperTest in 2.46 seconds (JVM running for 3.527)
+2024-01-17 23:57:34,739 INFO [main][HikariDataSource.java:110] - HikariPool-1 - Starting...
+2024-01-17 23:57:34,739 INFO [main][HikariDataSource.java:110] - HikariPool-1 - Starting...
+2024-01-17 23:57:34,911 INFO [main][HikariDataSource.java:123] - HikariPool-1 - Start completed.
+2024-01-17 23:57:34,911 INFO [main][HikariDataSource.java:123] - HikariPool-1 - Start completed.
+2024-01-17 23:57:34,967 INFO [SpringContextShutdownHook][HikariDataSource.java:350] - HikariPool-1 - Shutdown initiated...
+2024-01-17 23:57:34,967 INFO [SpringContextShutdownHook][HikariDataSource.java:350] - HikariPool-1 - Shutdown initiated...
+2024-01-17 23:57:34,974 INFO [SpringContextShutdownHook][HikariDataSource.java:352] - HikariPool-1 - Shutdown completed.
+2024-01-17 23:57:34,974 INFO [SpringContextShutdownHook][HikariDataSource.java:352] - HikariPool-1 - Shutdown completed.
+2024-01-17 23:57:48,835 INFO [background-preinit][Version.java:21] - HV000001: Hibernate Validator 6.1.6.Final
+2024-01-17 23:57:48,835 INFO [background-preinit][Version.java:21] - HV000001: Hibernate Validator 6.1.6.Final
+2024-01-17 23:57:49,267 INFO [main][SpringApplication.java:651] - No active profile set, falling back to default profiles: default
+2024-01-17 23:57:49,267 INFO [main][SpringApplication.java:651] - No active profile set, falling back to default profiles: default
+2024-01-17 23:57:49,675 INFO [main][GenericScope.java:295] - BeanFactory id=afd8f9e3-6628-3fb4-9d2d-2cfa6888a5bf
+2024-01-17 23:57:49,675 INFO [main][GenericScope.java:295] - BeanFactory id=afd8f9e3-6628-3fb4-9d2d-2cfa6888a5bf
+2024-01-17 23:57:50,508 WARN [main][AbstractMethod.java:324] - [com.yangcs.content.mapper.CourseBaseMapper.selectById] Has been loaded by XML or SqlProvider or Mybatis's Annotation, so ignoring this injection for [class com.baomidou.mybatisplus.core.injector.methods.SelectById]
+2024-01-17 23:57:50,508 WARN [main][AbstractMethod.java:324] - [com.yangcs.content.mapper.CourseBaseMapper.selectById] Has been loaded by XML or SqlProvider or Mybatis's Annotation, so ignoring this injection for [class com.baomidou.mybatisplus.core.injector.methods.SelectById]
+2024-01-17 23:57:50,989 INFO [main][StartupInfoLogger.java:61] - Started TeachplanMapperTest in 2.524 seconds (JVM running for 3.701)
+2024-01-17 23:57:50,989 INFO [main][StartupInfoLogger.java:61] - Started TeachplanMapperTest in 2.524 seconds (JVM running for 3.701)
+2024-01-17 23:57:59,650 INFO [main][HikariDataSource.java:110] - HikariPool-1 - Starting...
+2024-01-17 23:57:59,650 INFO [main][HikariDataSource.java:110] - HikariPool-1 - Starting...
+2024-01-17 23:58:00,340 INFO [main][HikariDataSource.java:123] - HikariPool-1 - Start completed.
+2024-01-17 23:58:00,340 INFO [main][HikariDataSource.java:123] - HikariPool-1 - Start completed.

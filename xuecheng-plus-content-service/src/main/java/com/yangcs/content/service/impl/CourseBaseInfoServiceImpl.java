@@ -43,6 +43,8 @@ public class CourseBaseInfoServiceImpl implements CourseBaseInfoService {
         queryWrapper.like(StringUtils.isNotEmpty(courseParamsDto.getCourseName()), CourseBase::getName, courseParamsDto.getCourseName());
         // 根据课程的审核状态查询 course_base.audit_status = ?
         queryWrapper.eq(StringUtils.isNotEmpty(courseParamsDto.getCourseName()), CourseBase::getAuditStatus, courseParamsDto.getAuditStatus());
+        //构建查询条件，【根据课程发布状态查询】
+        queryWrapper.eq(org.apache.commons.lang3.StringUtils.isNotEmpty(courseParamsDto.getPublishStatus()), CourseBase::getStatus, courseParamsDto.getPublishStatus());
 
         // 创建page分页参数对象，参数：当前页码，每页记录数
         Page<CourseBase> page = new Page<>(pageParams.getPageNo(), pageParams.getPageSize());
@@ -145,7 +147,11 @@ public class CourseBaseInfoServiceImpl implements CourseBaseInfoService {
         BeanUtils.copyProperties(dto, courseMarket);
         courseMarket.setId(courseBase.getId());
         // 保存营销的信息
-        saveCourseMarket(courseMarket);
+        int i = saveCourseMarket(courseMarket);
+        if(i<=0){
+            throw new RuntimeException("保存课程营销信息失败");
+        }
+
         // 从数据库查询课程详细信息，包括两部分：基本信息和营销信息
         CourseBaseInfoDto courseBaseInfoDto = getCourseBaseInfo(courseBase.getId());
 
@@ -164,7 +170,13 @@ public class CourseBaseInfoServiceImpl implements CourseBaseInfoService {
         CourseBaseInfoDto courseBaseInfoDto = new CourseBaseInfoDto();
         BeanUtils.copyProperties(courseBase, courseBaseInfoDto);
         BeanUtils.copyProperties(courseMarket, courseBaseInfoDto);
-        // todo 通过courseCategoryMapper查询分类信息，将分类信息放在courseBaseInfoDto中取
+
+        // 通过courseCategoryMapper查询分类信息，将分类信息放在courseBaseInfoDto中取
+        String mtName = courseCategoryMapper.selectById(courseBase.getMt()).getName();
+        String stName = courseCategoryMapper.selectById(courseBase.getSt()).getName();
+        courseBaseInfoDto.setMtName(mtName);
+        courseBaseInfoDto.setStName(stName);
+
         return courseBaseInfoDto;
     }
 

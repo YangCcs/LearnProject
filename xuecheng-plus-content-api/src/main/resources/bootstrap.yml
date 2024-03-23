@@ -30,7 +30,7 @@ spring:
             refresh: true
 
 
-  #  datasource:
+#  datasource:
 #    driver-class-name: com.mysql.cj.jdbc.Driver
 #    url: jdbc:mysql://localhost:3306/project_content?serverTimezone=UTC&userUnicode=true&useSSL=false&
 #    username: root
