@@ -42,10 +42,7 @@ import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 /**
- * @author Mr.M
- * @version 1.0
  * @description TODO
- * @date 2022/9/10 8:58
  */
 @Slf4j
 @Service
@@ -70,6 +67,11 @@ public class MediaFileServiceImpl implements MediaFileService {
     // 存储视频
     @Value("${minio.bucket.videofiles}")
     private String bucket_videofiles;
+
+    @Override
+    public MediaFiles getFileById(String mediaId) {
+        return null;
+    }
 
     @Override
     public PageResult<MediaFiles> queryMediaFiels(Long companyId, PageParams pageParams, QueryMediaParamsDto queryMediaParamsDto) {
@@ -224,9 +226,6 @@ public class MediaFileServiceImpl implements MediaFileService {
      * @param uploadFileParamsDto  上传文件的信息
      * @param bucket  桶
      * @param objectName 对象名称
-     * @return com.xuecheng.media.model.po.MediaFiles
-     * @author Mr.M
-     * @date 2022/10/ 12 21:22
      */
     @Transactional
     public MediaFiles addMediaFilesToDb(Long companyId,String fileMd5,UploadFileParamsDto uploadFileParamsDto,
@@ -507,7 +506,6 @@ public class MediaFileServiceImpl implements MediaFileService {
             e.printStackTrace();
             log.error("清楚分块文件失败,chunkFileFolderPath:{}", chunkFileFolderPath, e);
         }
-
 
     }
 }
